@@ -203,6 +203,10 @@ nav a:hover{color:var(--accent);text-decoration:none}
 .tl b{font-weight:600;white-space:nowrap}
 @media (max-width:420px){.tl li{grid-template-columns:1fr;gap:0}}
 .wip{font-style:normal;display:inline-block;vertical-align:.1em;margin-right:.35rem;font:600 .66rem/1 "Geist",system-ui,sans-serif;letter-spacing:.08em;text-transform:uppercase;color:#fff;background:#a8322a;padding:.32rem .5rem;border-radius:2px}
+.interests{margin:1.4rem 0}
+.interests small{display:block;font-size:.78rem;letter-spacing:.08em;text-transform:uppercase;color:var(--mute);margin-bottom:.5rem}
+.interests ul{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:.45rem}
+.interests li{font-size:.92rem;line-height:1.2;color:var(--accent);border:1px solid var(--line);border-radius:999px;padding:.38rem .8rem}
 section{display:none}
 section.on{display:block}
 @media (prefers-reduced-motion:no-preference){section.on{animation:in .25s ease-out}@keyframes in{from{opacity:0}to{opacity:1}}}
@@ -448,7 +452,7 @@ section.on{display:block}
   <p>I am a designer and researcher based in Düsseldorf. I started in architecture in India, where I became interested in how politics, religion and culture shape public space.</p>
   <p>I moved to human-computer interaction because I wanted to put users into the design process and keep them at the centre of decisions.</p>
   <p>Today I work as a junior designer at Planwerkstatt, translating the brand experiences of automotive and other premium brands into trade-fair spaces.</p>
-  <p>Interests: design and the politics of public space · social interaction · speculative design · human-centred design</p>
+  <div class="interests"><small>Interests</small><ul><li>design and the politics of public space</li><li>social interaction</li><li>speculative design</li><li>human-centred design</li></ul></div>
   <p class="end"><a href="#cv">Have a look at my CV</a></p>
 </section>
 
